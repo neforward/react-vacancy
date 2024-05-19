@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.job__avatar {
+  width: 100px;
+  height: 100px;
+  background: #000;
+  border-radius: 100%;
+  margin-right: 26px;
+}
+.job__item {
+  justify-content: space-between;
+  background: #fff;
+  padding: 25px 35px;
+  margin-bottom: 40px;
+}
+.job__company {
+  font-weight: 400;
+  font-size: 12px;
+  color: #699b9a;
+}
+.job__featured {
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #323232;
+  border-radius: 25px;
+  padding: 5px 9px;
+  margin-left: 13px;
+}
+.job__title {
+  font-weight: 400;
+  font-size: 22px;
+  color: #182120;
+  margin-top: 7px;
+  margin-bottom: 17px;
+}
+.job__condition {
+  font-weight: 400;
+  font-size: 12px;
+  color: #b6b6b6;
+  margin-right: 22px;
+}
+.job__link {
+  font-weight: 400;
+  font-size: 12px;
+  color: #699999;
+  background: #c4c4c4;
+  border-radius: 5px;
+  padding: 4px 5px;
+  margin-left: 25px;
+}
+.job__content {
+  margin-top: 84px;
+}
+.header {
+  background: #fff5;
+  height: 150px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  color: grey;
+  padding-top: 3%;
+}
+@media screen and (max-width: 650px) {
+  .job__item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .job__right {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 363px) {
+  .job__avatar {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .job__left {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 340px) {
+  .job__link {
+    margin: 0 12px;
+  }
+}
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+body {
+  background: #eaeaea;
+  font-family: "Roboto";
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+body {
+  margin: 0;
+}
+
+.img {
+  max-width: 100%;
+  border-radius: 100%;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  font-size: 25px;
+}
